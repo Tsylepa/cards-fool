@@ -14,6 +14,44 @@
   -webkit-text-size-adjust: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 6px;
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+img,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+li {
+  list-style: none;
+}
+
+input {
+  font: inherit;
+}
+
 a {
   font-weight: 500;
   color: #646cff;

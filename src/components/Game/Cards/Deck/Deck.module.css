@@ -1,0 +1,17 @@
+.deck {
+  display: flex;
+}
+
+.card {
+  width: 100px;
+  height: 160px;
+  border-radius: 8px;
+  margin-left: -99px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  background-color: #7c7c7c;
+}
+
+.trump {
+  transform: rotate(90deg) translate(10px, 40px);
+  z-index: -1;
+}
